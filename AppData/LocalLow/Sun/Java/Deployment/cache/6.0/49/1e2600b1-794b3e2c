@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P260" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Dreamweaver CS5 includes a tool called the Code Navigator, which you can use to access and edit style sheets. |n  |n When you select an element on a page and let the cursor rest for a moment, the Code Navigator button appears.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_04"/>
+<behavior id="showGraphic" target="gi_05"/>
+<behavior id="showHighlighter" target="hl_03"/>
+<style x="98" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t19_aud_0088.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_04" file="t19_p260_193_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="t19_p260_193a_sg.jpg" zorder="1" isAsset="false">
+<style x="126" y="72"/>
+<filter id="rotate" factor="0" x="122" y="72"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<hotspot_item width="103" height="32" hotspot_type="1" id="hl" highlighter="true" component_id="hl_03" x="-160" y="97" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="-160" y="97" height="32" width="103"/>
+<alttextValue/>
+</hotspot_item>
+</Page>

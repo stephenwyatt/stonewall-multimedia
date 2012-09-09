@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P44" version="1" templateFileName="expos_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="-206"/>
+</container>
+<style category="narrowPageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Web Services Description Language – or WSDL – provides a model for describing the interface of a web service, in an XML grammar, so that the service can be called.  |n  |n In order to find a service, a URL is sent to the server. The server responds with a link to the service, or the server. |n  |n Then the service request is sent and its response is an XML document.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<behavior id="showGraphic" target="gi_02"/>
+<style x="-388" y="-206"/>
+<alttextValue>This diagram has two sets of server requests and responses. The first set is titled Find a service. The link http://myservice.northglenn.com/ is sent to the server and the response is a link to the service. |n  |n In the second set, titled WSDL, the service request http://northglenn.com/MyService.wsdl is sent and the response form the server is an XML document.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t8_aud_0001.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="p44_01.png" zorder="0" isAsset="false">
+<style x="-156" y="-188"/>
+<filter id="rotate" factor="0" x="277" y="98"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="12" delay="0">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="p44_02.png" zorder="1" isAsset="false">
+<style x="-158" y="14"/>
+<filter id="rotate" factor="0" x="274" y="92"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="12" delay="18">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>A WSDL document describes how clients can interact with a particular service. It does this in an XML format, using specific elements and attributes. |n  |n The latest version of WSDL is version 2.0. It can be found at this W3C web site: |n  |n  |w http://www.w3.org/TR/wsdl20/</value>
+<behavior id="playAudio" target="audioi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t8_aud_0071.spx"/>
+</Page>

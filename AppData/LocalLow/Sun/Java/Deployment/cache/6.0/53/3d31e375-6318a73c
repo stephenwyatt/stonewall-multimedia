@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P84" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You want to create simple horizontal text, so you select  |b Horizontal Type Tool |p .</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_12"/>
+<behavior id="showGraphic" target="gi_13"/>
+<behavior id="showGraphic" target="gi_14"/>
+<behavior id="showHighlighter" target="hl_04"/>
+<style x="98" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t7_aud_0075.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You click the point in the image at which you want to begin adding the text.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="hideGraphic" target="gi_14"/>
+<behavior id="showGraphic" target="gi_15"/>
+<behavior id="hideHighlighter" target="hl_04"/>
+<behavior id="showHighlighter" target="hl_05"/>
+<style/>
+<alttextValue>A new type layer named Layer 1 is automatically added to your artwork, and displays in the Layers panel. </alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t7_aud_0119.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>You then simply type the text you want to add – in this case,  |f Monospaced Green Energy |f Helvetica  |p .</value>
+<behavior id="playAudio" target="audioi_03"/>
+<behavior id="showGraphic" target="gi_16"/>
+<behavior id="hideHighlighter" target="hl_05"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t7_aud_0120.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_12" file="t7_109_sg.jpg" zorder="0" isAsset="false">
+<style x="-319" y="-91"/>
+<filter id="rotate" factor="0" x="350" y="153"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_13" file="t7_109_sg.png" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_14" file="t7_109a_sg.png" zorder="2" isAsset="false">
+<style x="-338" y="68"/>
+<filter id="rotate" factor="0" x="93" y="42"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_15" file="t7_110_sg.png" zorder="3" isAsset="false">
+<style x="-383" y="-215"/>
+<filter id="rotate" factor="0" x="390" y="98"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_16" file="t7_111_sg.jpg" zorder="4" isAsset="false">
+<style x="-190" y="-75"/>
+<filter id="rotate" factor="0" x="143" y="28"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<hotspot_item width="186" height="21" hotspot_type="1" id="hl" highlighter="true" component_id="hl_04" x="-338" y="68" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="-338" y="68" height="21" width="186"/>
+<alttextValue/>
+</hotspot_item>
+<hotspot_item width="51" height="78" hotspot_type="1" id="hl" highlighter="true" component_id="hl_05" x="-212" y="-83" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="-212" y="-83" height="78" width="51"/>
+<alttextValue>A new type layer named Layer 1 is automatically added to your artwork, and displays in the Layers panel. </alttextValue>
+</hotspot_item>
+</Page>

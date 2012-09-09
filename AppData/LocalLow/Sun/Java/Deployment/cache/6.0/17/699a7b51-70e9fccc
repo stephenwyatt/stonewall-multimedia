@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P62" version="1" templateFileName="matching_graphic.xml">
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Match each layer style to an example of its effect.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<style/>
+<alttextValue>The text "Happy holidays" displays for the selected text layer.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="6" component_id="audioi_01" characterSelected="false" file="t24_aud_0018.spx"/>
+<text_item id="moi" component_id="moi_01" visible="true">
+<value>Bevel and Emboss</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_02" visible="true">
+<value>Stroke</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_03" visible="true">
+<value>Pattern Overlay</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_04" visible="true">
+<value>Outer Glow</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_01" visible="true" isCorrect="moi_01" file="p62_01_001_sg.jpg">
+<alttextValue>This layer style displays shadowed edges and highlights for each of the layer contents, making the text seem three-dimensional.</alttextValue>
+<value/>
+</answer_item>
+<answer_item id="ansi" component_id="ansi_02" visible="true" isCorrect="moi_02" file="p62_01_002_sg.jpg">
+<alttextValue>This layer style adds a hard-edged black outline for each of the letters in the selected layer's contents.</alttextValue>
+<value/>
+</answer_item>
+<answer_item id="ansi" component_id="ansi_03" visible="true" isCorrect="moi_03" file="p62_01_003_sg.jpg">
+<alttextValue>This effect shows a textured pattern on the surface of each of characters in the selected text layer.</alttextValue>
+<value/>
+</answer_item>
+<answer_item id="ansi" component_id="ansi_04" visible="true" isCorrect="moi_04" file="p62_01_004_sg.jpg">
+<alttextValue>This layer style displays a "halo" effect with glowing edges for each of the letters in the selected text layer.</alttextValue>
+<value/>
+</answer_item>
+</Page>

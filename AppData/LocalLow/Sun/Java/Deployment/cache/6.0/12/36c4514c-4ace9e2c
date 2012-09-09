@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Topic glossary="glossary.html" objectives="course_obj.html" references="references.html" skillbriefs="skillbriefs.html" transcripts="transcript.html" jobaids="jobaids.html" learningaids="learningaids.html" resources="resources_home.html" acknowledgements="acknowledgements.html" aboutThisCourse="about_course.html" copyright="copyrights.html" license="licensing.html" foas="followons.html" id="t38" name="T38 - Web Services Security" topicApproxDuration="17" sourceMaterial="1) Chapter 13 - Web Services Security  |n Professional XML Web Services  |n by Patrick Cauldwell et al.  |n http://skillport.books24x7.com/assetviewer.aspx?bookid=4472&amp;chunkid=767398527&amp;rowid=841&amp;noteMenuToggle=0&amp;hitSectionMenuToggle=0 |n  |n 2) Web Service Security Standards and Specifications |n Chapter 11 - SOA Security  |n Applied SOA: Service-Oriented Architecture and Design Strategies  |n by Mike Rosen, Boris Lublinsky, Kevin T. Smith and Marc J. Balcer  |n http://skillport.books24x7.com/assetviewer.aspx?bookid=25199&amp;chunkid=482558888&amp;rowid=998&amp;noteMenuToggle=0&amp;hitSectionMenuToggle=0 |n  |n 3) An introduction to Web Service Security using WSE - Part I |n http://www.codeproject.com/KB/webservices/WS-Security.aspx#Integrity |n  |n Supplementary |n Web Services Security |n http://www.w3.org/TR/ws-arch/#security |n  |n OASIS Web Services Security (WSS) TC |n http://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss |n  |n Chapter 21 - Advanced Web Services  |n Professional XML  |n by Bill Evjen et al.  |n Wrox Press 2007  |n http://skillport.books24x7.com/assetviewer.aspx?bookid=18147&amp;chunkid=363569479&amp;rowid=1756&amp;noteMenuToggle=0" generalRemarks="" estimatedDuration="20" maxMediaID="111" fadeGraphicVerified="true" tabOrderSet="true" charDialogUpgraded="true" softwareSimVerified="true">
+<topicType>Instruction</topicType>
+<topicTitle>Web Services Security</topicTitle>
+<LearningPoint type="Instruction" id="lp144" name="LP 1: Web service security concerns">
+<LinkToObjective id="lto147" objId="O16"/>
+<title>Web service security concerns</title>
+<PageStub id="p150" file="p150.xml"/>
+<PageStub id="p151" file="p151.xml"/>
+<PageStub id="p152" file="p152.xml"/>
+<PageStub id="p218" file="p218.xml"/>
+<PageStub id="p175" file="p175.xml"/>
+</LearningPoint>
+<LearningPoint type="Instruction" id="lp145" name="LP 2: Web service security standards">
+<LinkToObjective id="lto148" objId="O37"/>
+<title>Web service security standards</title>
+<PageStub id="p158" file="p158.xml"/>
+<PageStub id="p159" file="p159.xml"/>
+<PageStub id="p160" file="p160.xml"/>
+<PageStub id="p161" file="p161.xml"/>
+<PageStub id="p162" file="p162.xml"/>
+<PageStub id="p165" file="p165.xml"/>
+<PageStub id="p166" file="p166.xml"/>
+<PageStub id="p167" file="p167.xml"/>
+<PageStub id="p168" file="p168.xml"/>
+<PageStub id="p176" file="p176.xml"/>
+<PageStub id="p169" file="p169.xml"/>
+<PageStub id="p170" file="p170.xml"/>
+<PageStub id="p172" file="p172.xml"/>
+<PageStub id="p173" file="p173.xml"/>
+<PageStub id="p174" file="p174.xml"/>
+</LearningPoint>
+<LearningPoint type="Summary" id="lp146" name="Summary">
+<title>Summary</title>
+<PageStub id="p149" file="p149.xml"/>
+</LearningPoint>
+<Objective objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="knowledge" contentType="principles" id="o16" name="TObj1">
+<sourceMaterial/>
+<text>recognize the security concerns when building web services</text>
+<instructionalPlan>Begin by discussing the security implications of web services at a high level and move into a brief discussion of the approaches to security in applications and how it can sometimes be an afterthought - as opposed to a process - and summarize the differences between each approach. Make sure to explain what an integrated approach is and why it is required. (Source 1, section: Security and XML Web Services, up to but not including Key Security Concerns)  |n  |n Then explore the main security concerns that developers need to have when building web services. This includes |n  - authentication |n  - authorization |n  - auditing and logging |n  - integrity (also see Source 3 for a bit more info on integrity) |n  - encryption |n You could use an Explore List or Explore Graphic for this discussion.  |n (Source 1, Section: Key Security Concerns up to and including the sentence "The encrypted data can be placed in a message, such as a message exchanged via SOAP, or it can be stored." in section: Encryption and Related Techniques) |n  |n  |b Note to writer: |p  The topic is simply providing a high level overview here and doesn't need to get into the ins and out of encryption etc. |n  |n  |b Practice: |p  Variation of test.</instructionalPlan>
+<strategy>Two MXYs asking the learner to identify security concerns when building web services. Options are statements describing security concerns. |n Attributes: |n  - authentication |n  - authorization |n  - auditing and logging |n  - integrity |n  - encryption</strategy>
+<PageStub id="p156" file="p156.xml"/>
+<PageStub id="p157" file="p157.xml"/>
+</Objective>
+<Objective objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="knowledge" contentType="concepts" id="o37" name="TObj2">
+<sourceMaterial/>
+<instructionalPlan>As a counterpoint to the security concerns raised, discuss the major web service security standards in use.  |n  - Begin with WS-Security SOAP messaging, making sure to note that this is an OASIS (Organization for the Advancement of Structured Information Standards) standard (http://www.oasis-open.org/standards). Also mention that WS-Security is seen as a foundation to build upon and list and describe the other related standards. (Source 2, section: Web Service Security Standards and Specifications up to but not including WS-Trust)  |n  |n  - Move on to explore the various parts of the WS-Security family, which are all OASIS standards, including: |n  |w |w |w WS-Trust |w  |n  |w |w |w WS-Federation |w  |n  |w |w |w WS-SecureConversation |w  |n  |w |w |w WS-SecurityPolicy and the WS-Policy Framework |w  |n (Source 2, Section: WS-Trust up to but not including SAML) |n  |n  |b Practice: |p  Matching question asking the learner to match descriptions (options) to web service security standards (targets). |n Targets: |n  |w |w |w WS-Security |n  |w |w |w WS-Trust |w  |n  |w |w |w WS-Federation |w  |n  |w |w |w WS-SecureConversation |w  |n  |b Note to writer: |p  I haven't listed WS-SecurityPolicy and the WS-Policy Framework as a target here or in the test, as the source doesn't seem to clearly differentiate between the two. |n  |n  - Also discuss these security standards, which are OASIS standards, but not part of the WS-Security family: |n  |w |w |w Security Assertion Markup Language (SAML) (Source 2, Section: SAML) |n  |w |w |w eXtensible Access Control Markup Language (XACML) (Source 2, Section: XACML) |n  |n  - Finally, discuss these W3C security standards: |n  |w |w |w XML Signature |n  |w |w |w XML Encryption |n (Source 2, Section: XML Signature up to the end of the page) |n  |n  |b Practice: |p  Matching question asking the learner to match descriptions (options) to web service security standards (targets). |n Targets: |n  |w |w |w SAML |n  |w |w |w XACML |n  |w |w |w XML Signature |n  |w |w |w XML Encryption</instructionalPlan>
+<text>describe the major web service security standards</text>
+<strategy>Two Matching questions asking the learner to match descriptions (options) to web service security standards (targets). |n Question 1 targets: |n  |w |w |w WS-Security |n  |w |w |w WS-Trust  |n  |w |w |w XML Signature |n  |w |w |w XML Encryption |n  |n Question 2 targets: |n  |w |w |w WS-Federation |w  |n  |w |w |w WS-SecureConversation |w  |n  |w |w |w SAML |n  |w |w |w XACML</strategy>
+<PageStub id="p163" file="p163.xml"/>
+<PageStub id="p164" file="p164.xml"/>
+</Objective>
+</Topic>

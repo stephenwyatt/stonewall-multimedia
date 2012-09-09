@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P81" version="1" templateFileName="matching_standard.xml">
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You can use both the Quick Selection and the Magic Wand tools to select areas. |n  |n Match the tools to the way in which you use them.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="6" component_id="audioi_01" characterSelected="false" file="t3_aud_0053.spx"/>
+<text_item id="moi" component_id="moi_01" visible="true">
+<value>The Magic Wand Tool</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_02" visible="true">
+<value>The Quick Selection Tool</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_01" visible="true" isCorrect="moi_02">
+<value>You click an area to make a selection</value>
+<behavior id="feedback_behavior" target="nfi_01"/>
+</answer_item>
+<text_item id="nfi" component_id="nfi_01" visible="false">
+<value>The Quick Selection Tool enables you to select an area containing similar colors by dragging the tool over the area.</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_02" visible="true" isCorrect="moi_01">
+<value>You drag the tool over an area to make a selection</value>
+<behavior id="feedback_behavior" target="nfi_02"/>
+</answer_item>
+<text_item id="nfi" component_id="nfi_02" visible="false">
+<value>The Magic Wand Tool enables you automatically to select an area of an image based on its color range. To select an area, you simply click a pixel within the area.</value>
+<style/>
+</text_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_conceptual.png" visible="true"/>
+</Page>

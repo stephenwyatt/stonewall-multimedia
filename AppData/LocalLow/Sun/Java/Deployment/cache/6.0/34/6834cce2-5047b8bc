@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P43" version="1" templateFileName="summary.xml" hasVideo="false">
+<style category="widePageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You use WSDL to describe the interface of a web service so that it can be called. In a WSDL document, the  |f Monospaced description |f Helvetica  |p  element is the root element. It contains all other elements and identifies the namespaces that will be used. The  |f Monospaced types |f Helvetica  |p  element identifies the data types that can be used by the client and the web service, and the  |f Monospaced interface |f Helvetica  |p  element describes the operations that the web service performs. The  |f Monospaced binding |f Helvetica  |p  element identifies the network protocol that makes the service accessible over a network, and the  |f Monospaced service |f Helvetica  |p  element specifies the URI or endpoint at which the service can be accessed.</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<behavior id="showGraphic1" target="gi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="false" file="t8_aud_0000.spx"/>
+<graphic_item id="gi" component_id="gi_01" file="xmle_summary.jpg" zorder="0" isAsset="false">
+<style x="-203" y="-216"/>
+<filter id="rotate" factor="0" x="203" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="12" delay="0">
+<Effect mode="none"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+</Page>

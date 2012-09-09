@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P70" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="95" y="-124"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>The Protect Skin Tones feature removes all warm colors from the scaling equation. This feature is useful when the main focus of the image is a person. |n  |n It enables the background to stretch while still retaining the proportions of the body shape in the foreground. This will not occur when you free transform an image.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_38"/>
+<behavior id="showGraphic" target="gi_54"/>
+<style x="95" y="-124"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t18_aud_0045.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>Next you want to continue the resizing process.</value>
+<behavior id="playAudio" target="audioi_03"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t18_aud_0054.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_38" file="p70_01_034_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_54" file="p69_image3_sg.jpg" zorder="1" isAsset="false">
+<style x="-334" y="-106"/>
+<filter id="rotate" factor="0" x="351" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

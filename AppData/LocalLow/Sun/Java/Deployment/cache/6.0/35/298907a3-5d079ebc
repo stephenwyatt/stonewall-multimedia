@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P247" version="1" templateFileName="expos_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-358" y="-176"/>
+</container>
+<style category="narrowPageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>As an example, using VB.NET you begin with the  |f Monospaced WebService |f Helvetica  |p  directive and creating a class named  |f Monospaced DistanceConvert |f Helvetica  |p , which will contain the methods you'll expose as a web service.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showNote" target="note_16"/>
+<behavior id="showCode" target="codeti_16"/>
+<behavior id="showGraphic" target="gi_01"/>
+<style x="-358" y="-176"/>
+<alttextValue>1. You build a web service</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t2_aud_0144.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You import the relevant namespaces from the .NET Framework.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showCode" target="codeti_17"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t2_aud_0145.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>You then declare the class  |f Monospaced DistanceConvert |f Helvetica  |p  and ensure that it inherits from  |f Monospaced WebService |f Helvetica  |p .</value>
+<behavior id="playAudio" target="audioi_03"/>
+<behavior id="showCode" target="codeti_18"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t2_aud_0146.spx"/>
+<text_item id="note" component_id="note_16" visible="false">
+<value>You need to publish the file on a .NET-enabled server to deploy the service.</value>
+<style x="-359" y="-64"/>
+</text_item>
+<text_item id="codeti" component_id="codeti_16" visible="false" codeGrows="false">
+<value> |s 12 &lt;%@ WebService Language="VBScript" Class="DistanceConvert" %&gt; |p </value>
+<style x="-99" y="-174" width="449" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<text_item id="codeti" component_id="codeti_18" visible="false" codeGrows="true">
+<value> |s 12 Public Class DistanceConvert Inherits WebService |p </value>
+<style x="-99" y="-119" width="362" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<text_item id="codeti" component_id="codeti_17" visible="false" codeGrows="true">
+<value> |s 12 Imports System |n  |p  |s 12 Imports System.Web.Services |p </value>
+<style x="-97" y="-154" width="228" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="t2_p247_codebox.png" zorder="0" isAsset="false">
+<style x="-129" y="-209"/>
+<filter id="rotate" factor="0" x="258" y="210"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

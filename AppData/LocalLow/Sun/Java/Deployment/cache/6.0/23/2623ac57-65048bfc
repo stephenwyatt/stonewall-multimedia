@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P60" version="1" templateFileName="explore_graphic_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="0"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>The remaining five layer style options are highlighted.</value>
+<behavior id="showPrompt" target="pi_01"/>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showHighlighter" target="hl_06"/>
+<behavior id="showHighlighter" target="hl_07"/>
+<behavior id="showHighlighter" target="hl_08"/>
+<behavior id="showHighlighter" target="hl_09"/>
+<behavior id="showHighlighter" target="hl_10"/>
+<behavior id="showGraphic" target="gi_29"/>
+<behavior id="showGraphic" target="gi_30"/>
+<style x="-388" y="0"/>
+<alttextValue>The text layer with the content "Tropical holiday" is selected in the Layers panel.</alttextValue>
+</text_item>
+<text_item visible="false" id="pi" tagName="text_item" category="prompt_std" contCategory="feedback_container,text_item_container" contID="cont_fb,cont_ti" allowMultiple="false" allowMultiplesLimit="9" component_id="pi_01">
+<value>Click each of the remaining menu options for more information.</value>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_01" characterSelected="false" file="t24_aud_0011.spx"/>
+<hotspot_item width="191" height="22" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_06" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="205" y="106" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_01"/>
+<behavior id="clickOnShowGraphic2" target="gi_19"/>
+<behavior id="clickOnShowGraphic2" target="gi_20"/>
+<style x="205" y="106" height="22" width="191"/>
+<alttextValue>Satin</alttextValue>
+</hotspot_item>
+<hotspot_item width="191" height="22" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_07" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="205" y="128" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_02"/>
+<behavior id="clickOnShowGraphic2" target="gi_21"/>
+<behavior id="clickOnShowGraphic2" target="gi_22"/>
+<style x="205" y="128" height="22" width="191"/>
+<alttextValue>Color Overlay</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_01" visible="false">
+<value>Satin</value>
+<behavior id="clickOnShowPopup1" target="pb_01"/>
+<behavior id="clickOnShowGraphic1" target="gi_19"/>
+<behavior id="clickOnShowGraphic1" target="gi_20"/>
+<style/>
+<alttextValue>The Satin effect displays as an evenly darkened, smooth shade toward the inside of each object in the layer.</alttextValue>
+</text_item>
+<text_item id="lb" component_id="lb_02" visible="false">
+<value>Color Overlay</value>
+<behavior id="clickOnShowPopup1" target="pb_02"/>
+<behavior id="clickOnShowGraphic1" target="gi_21"/>
+<behavior id="clickOnShowGraphic1" target="gi_22"/>
+<style/>
+<alttextValue>The Color Overlay effect displays a flat color fill for each of the selected characters in the text layer. In this instance the fill color is red.</alttextValue>
+</text_item>
+<text_item id="lb" component_id="lb_03" visible="false">
+<value>Gradient Overlay</value>
+<behavior id="clickOnShowPopup1" target="pb_03"/>
+<behavior id="clickOnShowGraphic1" target="gi_23"/>
+<behavior id="clickOnShowGraphic1" target="gi_24"/>
+<style/>
+<alttextValue>The Gradient Overlay displays a black-and-white gradient as a fill for each of the letters in the selected text layer.</alttextValue>
+</text_item>
+<hotspot_item width="191" height="22" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_08" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="205" y="150" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_03"/>
+<behavior id="clickOnShowGraphic2" target="gi_23"/>
+<behavior id="clickOnShowGraphic2" target="gi_24"/>
+<style x="205" y="150" height="22" width="191"/>
+<alttextValue>Gradient Overlay</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_04" visible="false">
+<value>Pattern Overlay</value>
+<behavior id="clickOnShowPopup1" target="pb_04"/>
+<behavior id="clickOnShowGraphic1" target="gi_25"/>
+<behavior id="clickOnShowGraphic1" target="gi_26"/>
+<style/>
+<alttextValue>The Pattern Overlay effect displays a textured pattern on the surface of each of characters in the text layer.</alttextValue>
+</text_item>
+<hotspot_item width="191" height="22" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_09" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="205" y="172" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_04"/>
+<behavior id="clickOnShowGraphic2" target="gi_25"/>
+<behavior id="clickOnShowGraphic2" target="gi_26"/>
+<style x="205" y="172" height="22" width="191"/>
+<alttextValue>Pattern Overlay</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_05" visible="false">
+<value>Stroke</value>
+<behavior id="clickOnShowPopup1" target="pb_05"/>
+<behavior id="clickOnShowGraphic1" target="gi_27"/>
+<behavior id="clickOnShowGraphic1" target="gi_28"/>
+<style/>
+<alttextValue>The Stroke effect displays a hard-edged black outline for each of the letters in the selected text layer.</alttextValue>
+</text_item>
+<hotspot_item width="191" height="22" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_10" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="205" y="194" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_05"/>
+<behavior id="clickOnShowGraphic2" target="gi_27"/>
+<behavior id="clickOnShowGraphic2" target="gi_28"/>
+<style x="205" y="194" height="22" width="191"/>
+<alttextValue>Stroke</alttextValue>
+</hotspot_item>
+<text_item id="pb" component_id="pb_01" visible="false">
+<value>You can use the Satin layer style to add a shading effect on the inside of a layer's content.</value>
+<behavior id="playAudio2" target="audioi_02"/>
+<style x="-388" y="99"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_02" characterSelected="false" file="t24_aud_0161.spx"/>
+<text_item id="pb" component_id="pb_02" visible="false">
+<value>You can use the Color Overlay layer style to fill the selected content of a layer with a flat color.</value>
+<behavior id="playAudio2" target="audioi_03"/>
+<style x="-388" y="99"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_03" characterSelected="false" file="t24_aud_0162.spx"/>
+<text_item id="pb" component_id="pb_03" visible="false">
+<value>You can use the Gradient Overlay layer style to apply a gradient fill effect to the selected content of a layer.</value>
+<behavior id="playAudio2" target="audioi_04"/>
+<style x="-388" y="99"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_04" characterSelected="false" file="t24_aud_0163.spx"/>
+<text_item id="pb" component_id="pb_04" visible="false">
+<value>You can use the Pattern Overlay layer style to apply a pattern with which to fill the selected content of a layer.</value>
+<behavior id="playAudio2" target="audioi_05"/>
+<style x="-388" y="99"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_05" characterSelected="false" file="t24_aud_0164.spx"/>
+<text_item id="pb" component_id="pb_05" visible="false">
+<value>You can use the Stroke layer style to add an outline to the selected contents of a layer. This effect can use a pattern, a gradient, or a color for the outline, with black as the default color.</value>
+<behavior id="playAudio2" target="audioi_06"/>
+<style x="-388" y="99"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_06" characterSelected="false" file="t24_aud_0165.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_19" file="p60_111_sg.jpg" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="260" y="46"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_20" file="p60_111_sg.png" zorder="2" isAsset="false">
+<style x="207" y="106"/>
+<filter id="rotate" factor="0" x="94" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_21" file="p60_112_sg.jpg" zorder="3" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="260" y="46"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_22" file="p60_112_sg.png" zorder="4" isAsset="false">
+<style x="207" y="128"/>
+<filter id="rotate" factor="0" x="94" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_23" file="p60_113_sg.jpg" zorder="5" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="260" y="46"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_24" file="p60_113_sg.png" zorder="6" isAsset="false">
+<style x="207" y="150"/>
+<filter id="rotate" factor="0" x="94" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_25" file="p60_114_sg.jpg" zorder="7" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="260" y="46"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_26" file="p60_114_sg.png" zorder="8" isAsset="false">
+<style x="207" y="172"/>
+<filter id="rotate" factor="0" x="94" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_27" file="p60_115_sg.jpg" zorder="9" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="260" y="46"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_28" file="p60_115_sg.png" zorder="11" isAsset="false">
+<style x="207" y="194"/>
+<filter id="rotate" factor="0" x="94" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_29" file="p59_105_sg.png" zorder="10" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_30" file="p59_105_sg.jpg" zorder="0" isAsset="false">
+<style x="-398" y="-213"/>
+<filter id="rotate" factor="0" x="259" y="176"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

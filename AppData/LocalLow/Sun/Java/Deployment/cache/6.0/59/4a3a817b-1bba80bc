@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P117" version="1" templateFileName="tryit.xml">
+<container id="cont_tryit" component_id="cont_tryit_1">
+<style x="-225" y="-211"/>
+</container>
+<container id="cont_steps" component_id="cont_steps_1">
+<style x="50" y="26"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Instead of clicking and dragging, you can control the stacking order of the layers using menu options. |n  |n You decide to bring the bird_01 layer one layer forward, so that it displays in front of the Happy Holidays layer.</value>
+<behavior id="showTryit" target="tryi_01"/>
+<behavior id="playAudio1" target="audioi_01"/>
+<style x="-225" y="-211"/>
+</text_item>
+<text_item id="fic" component_id="fic_1" visible="false">
+<value>The bird_01 layer is brought one layer forward and now displays in front of the Happy Holidays layer.</value>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="5" component_id="audioi_01" characterSelected="false" file="t5_aud_0439.spx"/>
+<answer_item id="ansi" component_id="ansi_03" visible="false" actionGroups="group_01,group_02,group_03" linkwith="">
+<value>Select  |b Layer - Arrange - Bring Forward |p </value>
+<behavior id="showGraphic1" target="gi_01"/>
+<behavior id="showGraphic1" target="gi_02"/>
+<behavior id="showGraphic1" target="gi_03"/>
+<alttextValue>The Arrange submenu includes five options – Bring to Front, Bring Forward, Send Backward, Send to Back, and Reverse.</alttextValue>
+</answer_item>
+<action_item id="action" component_id="action_01" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_06" actionGroupId="group_01"/>
+<action_item id="action" component_id="action_02" completeActionEvent="rollover" correctAction="true" linkwith="image_hs_07" actionGroupId="group_02"/>
+<action_item id="action" component_id="action_03" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_08" actionGroupId="group_03"/>
+<hotspot_item width="43" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C1" isAutoCreated="true" component_id="image_hs_06" altTextEnabled="true" altTextSelected="true" x="-270" y="-182" locked="true" file="btn_layer_sg.png" hidden="false">
+<behavior id="showPointer1" target="dp_04" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_05" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_06" subtype="left-click"/>
+<style x="-270" y="-182" height="19" width="43"/>
+<alttextValue>Layer</alttextValue>
+</hotspot_item>
+<hotspot_item width="237" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C2" isAutoCreated="true" component_id="image_hs_07" altTextEnabled="true" altTextSelected="true" x="-267" y="109" locked="true" file="btn_arrange_sg.png" hidden="false">
+<behavior id="onFocusShowGraphic1" target="gi_07" subtype="rollover"/>
+<style x="-267" y="109" height="19" width="237"/>
+<alttextValue>Arrange</alttextValue>
+</hotspot_item>
+<hotspot_item width="183" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C3" isAutoCreated="true" component_id="image_hs_08" altTextEnabled="true" altTextSelected="true" x="-27" y="128" locked="true" hidden="false" file="btn_bringforward_sg.png">
+<behavior id="clickOnShowGraphic1" target="gi_08" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_01" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_02" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_03" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_05" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_06" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_07" subtype="left-click"/>
+<style x="-27" y="128" height="19" width="183"/>
+<alttextValue>Bring Forward</alttextValue>
+</hotspot_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="t5_095_sg.jpg" zorder="1" isAsset="false">
+<style x="-164" y="-92"/>
+<filter id="rotate" factor="0" x="268" y="154"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="t5_095_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="t5_095a_sg.png" zorder="2" isAsset="false">
+<style x="-130" y="-27"/>
+<filter id="rotate" factor="0" x="238" y="34"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="dp" component_id="dp_04" file="dynamic_pointer_up_508.gif" zorder="7" isAsset="true" highlighter="true" autostart="true" anim_gif="dynamic_pointer_up.gif" category="animation">
+<style x="-263" y="-161"/>
+<filter id="rotate" factor="0" x="14" y="18"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="t5_097_sg.png" zorder="3" isAsset="false">
+<style x="-270" y="-182"/>
+<filter id="rotate" factor="0" x="123" y="199"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="t5_097a_sg.png" zorder="4" isAsset="false">
+<style x="-270" y="-216"/>
+<filter id="rotate" factor="0" x="123" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="0">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_07" file="t5_099_sg.png" zorder="5" isAsset="false">
+<style x="-267" y="106"/>
+<filter id="rotate" factor="0" x="213" y="50"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="t5_101_sg.png" zorder="6" isAsset="false">
+<style x="82" y="-27"/>
+<filter id="rotate" factor="0" x="24" y="12"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

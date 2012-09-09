@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P232" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="61"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>The Rename Class dialog box opens, enabling you to choose the style rule that you want to rename and to specify the new name.  |n  |n The style rule that you selected is shown in the Rename class drop-down list by default.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_05"/>
+<style x="-388" y="61"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t19_aud_0051.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You enter the modified name in the New name text box – in this case  |f Monospaced text1 |f Helvetica  |p  – and click  |b OK |p .</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_06"/>
+<behavior id="showHighlighter" target="hl_04"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t19_aud_0052.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_05" file="t19_p232_165_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="t19_p232_166_sg.png" zorder="1" isAsset="false">
+<style x="-241" y="-189"/>
+<filter id="rotate" factor="0" x="125" y="36"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<hotspot_item width="79" height="27" hotspot_type="1" id="hl" highlighter="true" component_id="hl_04" x="31" y="-182" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="31" y="-182" height="27" width="79"/>
+<alttextValue/>
+</hotspot_item>
+</Page>

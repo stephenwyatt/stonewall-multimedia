@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P93" version="1" templateFileName="matching_standard.xml" startingNumber="1" ranking="true">
+<style category="standard"/>
+<text_item id="moi" component_id="moi_01" visible="true">
+<value>Select a shape tool</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_01" visible="true" isCorrect="moi_01"/>
+<text_item id="moi" component_id="moi_02" visible="true">
+<value>Choose a foreground color</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_02" visible="true" isCorrect="moi_02"/>
+<text_item id="moi" component_id="moi_03" visible="true">
+<value>Create a starting point</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_03" visible="true" isCorrect="moi_03"/>
+<text_item id="moi" component_id="moi_04" visible="true">
+<value>Drag the shape to the desired size</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_04" visible="true" isCorrect="moi_04"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Sequence the steps you take to create a vector image using a predefined shape in Photoshop.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="6" component_id="audioi_01" characterSelected="false" file="t11_aud_0084.spx"/>
+</Page>

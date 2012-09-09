@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P250" version="1" templateFileName="list_caption.xml">
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>While editing, your focus should be on these areas:</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<behavior id="showGraphic1" target="gi_01"/>
+<behavior id="showGraphic1" target="gi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_01" characterSelected="false" file="t3_aud_0058.spx"/>
+<text_item id="li" component_id="li_01" visible="false">
+<value>checking that your text is organized with logical transitions between points</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_03"/>
+<style/>
+</text_item>
+<text_item id="li" component_id="li_04" visible="false">
+<value>ensuring the text is clear, complete, and factually accurate</value>
+<behavior id="playAudio" target="audioi_05"/>
+<behavior id="showGraphic" target="gi_04"/>
+<style category="bulleted"/>
+</text_item>
+<text_item id="li" component_id="li_05" visible="false">
+<value>checking that the text uses the appropriate tone for the audience you're addressing</value>
+<behavior id="playAudio" target="audioi_06"/>
+<behavior id="showGraphic" target="gi_05"/>
+<style category="bulleted"/>
+</text_item>
+<text_item id="li" component_id="li_03" visible="false">
+<value>ensuring the terminology you've used is correct and will be understood, and</value>
+<behavior id="playAudio" target="audioi_04"/>
+<behavior id="showGraphic" target="gi_06"/>
+<style category="bulleted"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_02" characterSelected="false" file="t3_aud_0059.spx"/>
+<text_item id="li" component_id="li_02" visible="false">
+<value>rewriting and reorganizing content to improve the clarity and flow of the document</value>
+<behavior id="playAudio" target="audioi_03"/>
+<behavior id="showGraphic" target="gi_07"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_03" characterSelected="false" file="t3_aud_0060.spx"/>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_04" characterSelected="false" file="t3_aud_0061.spx"/>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_05" characterSelected="false" file="t3_aud_0062.spx"/>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_06" characterSelected="false" file="t3_aud_0063.spx"/>
+<graphic_item id="gi" component_id="gi_01" file="p250_1.jpg" zorder="0" isAsset="false">
+<style x="-398" y="-228"/>
+<filter id="rotate" factor="0" x="398" y="228"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="p250_listbox.png" zorder="1" isAsset="false">
+<style x="-398" y="-228"/>
+<filter id="rotate" factor="0" x="155" y="195"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="p250_h1.png" zorder="2" isAsset="false">
+<style x="-354" y="-144"/>
+<filter id="rotate" factor="0" x="91" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_04" file="p250_h2.png" zorder="3" isAsset="false">
+<style x="-355" y="-79"/>
+<filter id="rotate" factor="0" x="114" y="24"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="p250_h3.png" zorder="4" isAsset="false">
+<style x="-354" y="-16"/>
+<filter id="rotate" factor="0" x="63" y="11"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="p250_h4.png" zorder="5" isAsset="false">
+<style x="-354" y="20"/>
+<filter id="rotate" factor="0" x="97" y="24"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_07" file="p250_h5.png" zorder="6" isAsset="false">
+<style x="-354" y="85"/>
+<filter id="rotate" factor="0" x="123" y="23"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

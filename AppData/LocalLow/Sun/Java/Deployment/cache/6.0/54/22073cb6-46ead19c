@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P176" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>The new .table CSS rule is created and added to the sheet1 style sheet. The rule displays in the CSS Styles panel and is available for selection from the Property inspector.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<behavior id="showHighlighter" target="hl_02"/>
+<style x="-388" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t17_aud_0259.spx"/>
+<graphic_item id="gi" component_id="gi_01" file="p176_01_236_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<hotspot_item width="231" height="16" hotspot_type="1" id="hl" highlighter="true" component_id="hl_02" x="141" y="58" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="141" y="58" height="16" width="231"/>
+<alttextValue/>
+</hotspot_item>
+</Page>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P55" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You can design vector art in Photoshop by creating paths and adding color along or within them. |n  |n Each segment in a vector image is usually a solid color, although you can also use gradients to add definition to an image.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_04"/>
+<style x="98" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t11_aud_0002.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>Vector images contain crisp edges and clean lines. They are useful for designing simple graphics and logos, but are not suitable for more complex, realistic images.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t11_aud_0003.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_04" file="p55_01_102_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

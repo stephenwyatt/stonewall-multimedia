@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P242" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You can remove a style sheet that is attached to a document using the CSS Styles panel. This doesn't delete the style sheet. Instead, it breaks its link to the current page.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_03"/>
+<style x="-388" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t19_aud_0067.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You want to remove the styles.css style sheet from the index page, which is currently open.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showHighlighter" target="hl_03"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t19_aud_0068.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_03" file="t19_p242_196_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<hotspot_item width="78" height="21" hotspot_type="1" id="hl" highlighter="true" component_id="hl_03" x="159" y="30" locked="false" altTextEnabled="true" altTextSelected="true">
+<style x="159" y="30" height="21" width="78"/>
+<alttextValue/>
+</hotspot_item>
+</Page>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P270" version="1" templateFileName="expos_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-364" y="-189"/>
+</container>
+<style category="narrowPageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Using WCF and C# involves taking a slightly different approach than when you use traditional asmx pages in ASP.NET.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_03"/>
+<behavior id="showGraphic" target="gi_04"/>
+<behavior id="showGraphic" target="gi_05"/>
+<style x="-364" y="-189"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t2_aud_0227.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>In this example,  |f Monospaced IAddTax |f Helvetica  |p  is identified as a service using the  |f Monospaced ServiceContract |f Helvetica  |p  attribute, and the  |f Monospaced AddTax |f Helvetica  |p  method is made accessible using the  |f Monospaced OperationContract |f Helvetica  |p  attribute.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showCode" target="codeti_02"/>
+<behavior id="showGraphic" target="gi_02"/>
+<behavior id="hideGraphic" target="gi_05"/>
+<behavior id="hideGraphic" target="gi_04"/>
+<behavior id="hideGraphic" target="gi_03"/>
+<style/>
+<alttextValue>The relevant code is |n [ServiceContract()] and |n  [OperationContract()]</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t2_aud_0228.spx"/>
+<text_item id="codeti" component_id="codeti_02" visible="false" codeGrows="false">
+<value> |s 12 ... |n  |p  |Estatic1 #ffcc00  |s 12 [ServiceContract()] |p  |e  |s 12  |n  |p  |s 12 public interface IAddTax |n  |p  |s 12 { |n  |p  |s 12  |w |w |w // Multiply product cost by tax rate |n  |p  |s 12  |w |w  |p  |Estatic2 #ffcc00  |s 12  [OperationContract()] |p  |e  |s 12  |n  |p  |s 12  |w |w |w decimal AddTax(decimal productCost, double taxRate); |n  |p  |s 12 } |n  |p  |s 12 ... |p </value>
+<style x="-105" y="-186" width="409" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<text_item id="ti" component_id="ti_04" visible="false">
+<value>The  |f Monospaced DataContract |f Helvetica  |p  attribute defines the data contract class and the  |f Monospaced DataMember |f Helvetica  |p  attribute defines the  |f Monospaced SalesOrderId |f Helvetica  |p  property that's to be used in the service.</value>
+<behavior id="playAudio" target="audioi_04"/>
+<behavior id="showCode" target="codeti_04"/>
+<style/>
+<alttextValue>The relevant code is |n [DataContract] and |n  |w [DataMember]</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_04" characterSelected="false" file="t2_aud_0229.spx"/>
+<text_item id="codeti" component_id="codeti_04" visible="false" codeGrows="false">
+<value> |s 12 ... |n  |p  |Estatic1 #ffcc00  |s 12 [DataContract] |p  |e  |s 12  |n  |p  |s 12  |w |w |w public class SalesOrder |n  |p  |s 12  |w |w |w { |n  |p  |s 12  |w |w |w |w |w |w |w private int salesID_value; |n  |p  |s 12  |w |w |w |w |w |w |w // Apply the DataMemberAttribute to the property. |n  |p  |s 12  |w |w |w |w |w  |p  |Estatic2 #ffcc00  |s 12  |w [DataMember] |p  |e  |s 12  |n  |p  |s 12  |w |w |w |w |w |w |w public int SalesOrderId |n  |p  |s 12  |w |w |w |w |w |w |w { |n  |p  |s 12  |w |w |w |w |w |w |w |w |w |w |w get { return salesID_value;; } |n  |p  |s 12  |w |w |w |w |w |w |w |w |w |w |w set { salesID_value; = value; } |n  |p  |s 12  |w |w |w |w |w |w |w } |n  |p  |s 12  |w |w |w } |n  |p  |s 12 ... |p </value>
+<style x="-105" y="-186" width="419" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_02" file="t2_p247_codebox.png" zorder="0" isAsset="false">
+<style x="-129" y="-209"/>
+<filter id="rotate" factor="0" x="258" y="210"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="t2_p255_pic.jpg" zorder="1" isAsset="false">
+<style x="-366" y="-184"/>
+<filter id="rotate" factor="0" x="369" y="195"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_04" file="t2_p270_label01.png" zorder="2" isAsset="false">
+<style x="0" y="1"/>
+<filter id="rotate" factor="0" x="51" y="27"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="0">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="t2_p270_label02.png" zorder="3" isAsset="false">
+<style x="1" y="56"/>
+<filter id="rotate" factor="0" x="51" y="27"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="6">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+</Page>

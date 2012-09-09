@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P152" version="1" templateFileName="expos_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="108" y="-155"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>It's generally a good idea to use  |f Monospaced GET |f Helvetica  |p  requests only for read-only requests. In other words, a  |f Monospaced GET |f Helvetica  |p  request shouldn't be allowed to make state changes to a server or its contents. |n  |n Similarly, it's better to use  |f Monospaced POST |f Helvetica  |p  requests to create, update, or delete data.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_07"/>
+<behavior id="showGraphic" target="gi_08"/>
+<style x="108" y="-155"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t34_aud_0162.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>When working with REST requests, a good rule of thumb is to assume that a web page is using a REST API to provide its services. Then a  |f Monospaced GET |f Helvetica  |p  request is used to read data and a  |f Monospaced POST |f Helvetica  |p  request is used to post a comment, which usually involves a longer and more complex set of parameters.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_09"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t34_aud_0163.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>Although REST services use XML to generate responses, XML is almost never used in a REST request. Because the parameters for most requests are typically very basic, XML isn't required.  |n  |n However, using XML does offer the benefit of type-safety. But you should always check that your input is correct because of the stateless nature of the REST architecture.</value>
+<behavior id="playAudio" target="audioi_03"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t34_aud_0164.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_07" file="p152_image.jpg" zorder="0" isAsset="false">
+<style x="-398" y="-28"/>
+<filter id="rotate" factor="0" x="134" y="117"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_09" file="p152_02.jpg" zorder="2" isAsset="false">
+<style x="-398" y="-37"/>
+<filter id="rotate" factor="0" x="253" y="121"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="12" delay="0">
+<Effect mode="wipe" direction="e" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="p152_label2.png" zorder="1" isAsset="false">
+<style x="-150" y="-24"/>
+<filter id="rotate" factor="0" x="93" y="105"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="12" delay="12">
+<Effect mode="wipe" direction="n" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+</Page>

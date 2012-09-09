@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P144" version="1" templateFileName="short_answer_code_draggable.xml" hasVideo="false">
+<container id="cont_sa" component_id="cont_sa_1" macro_value1="1" macro_value2="5" useSteps="true">
+<style x="42" y="22"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Complete the ASP.NET code required to make a method in an application available on a web site as a web service.</value>
+<behavior id="showCode" target="codeti_01"/>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<style x="42" y="22"/>
+</text_item>
+<text_item id="codeti" component_id="codeti_01" visible="true" codeGrows="false">
+<value> |s 12 &lt;%@ WebService Language="VBScript" Class="CalulateArea" %&gt; |n  |p  |s 12  |n  |p  |s 12 Imports System |n  |p  |s 12 Imports System.Web.Services |n  |p  |s 12  |n  |p  |s 12 Public Class CalculateArea :Inherits WebService |n  |p  |s 12  |n  |p  |s 12 &lt; |p   |s 12 |Deditable147 11 |p  |s 12 &gt; Public Function GetArea |n  |p  |s 12 (ByVal Width As String, ByVal Height As String) As String |n  |p  |s 12  |w dim theWidth |n  |p  |s 12  |w dim theHeight |n  |p  |s 12  |w theWidth=trim(replace(Width,",",".")) |n  |p  |s 12  |w theHeight=trim(replace(Height,",",".")) |n  |p  |s 12  |w if theWidth="" or theHeight="" then return "Error" |n  |p  |s 12  |w return (theWidth * theHeight) |n  |p  |s 12 end function |n  |p  |s 12  |n  |p  |s 12 end class |p </value>
+<style x="-378" y="-198" width="423" textItem.font.family="Monospaced" textItem.font.size="12" item.paintBackground="true" item.background.default="false" item.background.color="ffffff"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_01" characterSelected="false" file="t11_aud_0008.spx"/>
+<answer_item id="ansi" component_id="ansi_01" visible="false" isCorrect="true" preferred_answer="true">
+<value>WebMethod()</value>
+<behavior id="feedback_behavior" target="nfi_01"/>
+</answer_item>
+<text_item id="nfi" component_id="nfi_01" visible="false">
+<value>To expose a function to the Internet, you define each application method as a  |f Monospaced WebMethod |f Helvetica  |p .</value>
+<style/>
+</text_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_syntax.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="!!empty01.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="0" y="0"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

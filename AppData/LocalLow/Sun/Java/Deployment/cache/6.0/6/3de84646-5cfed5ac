@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P270" version="1" templateFileName="tryit.xml">
+<container id="cont_tryit" component_id="cont_tryit_1">
+<style x="43" y="-207"/>
+</container>
+<container id="cont_steps" component_id="cont_steps_1">
+<style x="58" y="67"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You decide to use the Mixer Brush Tool to add a painting effect to an image. First you need to access the tool on the Brush Tool's hidden menu.</value>
+<behavior id="showTryit" target="tryi_01"/>
+<behavior id="playAudio1" target="audioi_01"/>
+<style x="43" y="-207"/>
+</text_item>
+<text_item id="fic" component_id="fic_1" visible="false">
+<value>The Mixer Brush has been enabled.</value>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="5" component_id="audioi_01" characterSelected="false" file="t9_aud_0209.spx"/>
+<answer_item id="ansi" component_id="ansi_01" visible="false" actionGroups="group_01" linkwith="">
+<value>Click the  |b Brush |p   |b Tool |p  icon</value>
+<behavior id="showGraphic1" target="gi_01"/>
+<behavior id="showGraphic1" target="gi_02"/>
+</answer_item>
+<action_item id="action" component_id="action_01" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_03" actionGroupId="group_01"/>
+<hotspot_item width="26" height="23" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C1" isAutoCreated="true" component_id="image_hs_03" altTextEnabled="true" altTextSelected="true" x="-364" y="-28" locked="false" file="bt_brush_sg.png" hidden="false">
+<behavior id="clickOnShowGraphic1" target="gi_03" subtype="left-click"/>
+<behavior id="showPointer1" target="dp_04" subtype="left-click"/>
+<style x="-364" y="-28" height="23" width="26"/>
+<alttextValue>Brush Tool</alttextValue>
+</hotspot_item>
+<answer_item id="ansi" component_id="ansi_02" visible="false" actionGroups="group_02" linkwith="">
+<value>Select the  |b Mixer Brush Tool |p </value>
+</answer_item>
+<action_item id="action" component_id="action_02" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_04" actionGroupId="group_02"/>
+<hotspot_item width="168" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C1" isAutoCreated="true" component_id="image_hs_04" altTextEnabled="true" altTextSelected="true" x="-335" y="32" locked="false" file="bt_mixerbrush_tool_sg.png" hidden="false">
+<behavior id="hideGraphic1" target="gi_03" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_05" subtype="left-click"/>
+<style x="-335" y="32" height="19" width="168"/>
+<alttextValue>Mixer Brush Tool</alttextValue>
+</hotspot_item>
+<graphic_item id="gi" component_id="gi_01" file="p270_203_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="p270_203_sg.jpg" zorder="1" isAsset="false">
+<style x="-335" y="-107"/>
+<filter id="rotate" factor="0" x="341" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="p270_205_sg.png" zorder="2" isAsset="false">
+<style x="-392" y="-159"/>
+<filter id="rotate" factor="0" x="363" y="107"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="dp" component_id="dp_04" file="dynamic_pointer_left_508.gif" zorder="4" isAsset="true" highlighter="true" autostart="true" anim_gif="dynamic_pointer_left.gif" category="animation">
+<style x="-335" y="-30"/>
+<filter id="rotate" factor="0" x="18" y="14"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="p270_207_sg.png" zorder="3" isAsset="false">
+<style x="-392" y="-158"/>
+<filter id="rotate" factor="0" x="395" y="77"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+</Page>

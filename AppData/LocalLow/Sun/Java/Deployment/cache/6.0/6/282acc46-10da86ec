@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P58" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>It may be necessary to sharpen images or parts of them. You could do this if, for example, an original image is slightly out of focus. Although you can't actually change the image focus, you can simulate the appearance of doing so.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_19"/>
+<behavior id="showGraphic" target="gi_20"/>
+<style x="98" y="-206"/>
+<alttextValue>The Sharpen submenu contains the Sharpen, Sharpen Edges, Sharpen More, Smart Sharpen, and Unsharp Mask options.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t16_aud_0009.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You can also use a sharpening filter to draw the viewer's attention to a specific area of an image, by intensifying the image outlines and details. This works especially well if you also blur other areas.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_19"/>
+<behavior id="showGraphic" target="gi_20"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t16_aud_0014.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_19" file="p58_01_007_sg.jpg" zorder="0" isAsset="false">
+<style x="-334" y="-106"/>
+<filter id="rotate" factor="0" x="358" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_20" file="p58_01_007_sg.png" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

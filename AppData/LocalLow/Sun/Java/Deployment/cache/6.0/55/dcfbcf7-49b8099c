@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P130" version="1" templateFileName="multiple_choice_wide.xml">
+<style category="widePageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You're working on a Photoshop document that contains several layers. You want to lock the birds layer and then hide the tree layer. |n  |n How would you do this?</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="false" file="t5_aud_0482.spx"/>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_01" min="2" isCorrect="true">
+<value>Select the birds layer, and click the icon that makes it uneditable. Then deselect the icon next to the tree layer that indicates its visibility.</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_02" min="2">
+<value>Select the birds layer, and deselect the icon that indicates its visibility. Then select the tree layer and click the icon that makes it uneditable.</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_03" min="2">
+<value>Select the birds layer, and click the icon that makes it uneditable. Then select the tree layer, and access the option that enables you to delete it.</value>
+</answer_item>
+</Page>

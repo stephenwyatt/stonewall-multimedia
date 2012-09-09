@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P133" version="1" templateFileName="skillcheck.xml">
+<container id="cont_plain" component_id="cont_plain_1">
+<style x="69" y="-184"/>
+</container>
+<container id="cont_skl" component_id="cont_skl_1">
+<style x="-260" y="-158"/>
+</container>
+<style category="standard"/>
+<text_input_item id="codeti" component_id="codeti_01" mneumonic_id=""/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You're designing a postcard using Photoshop CS5. |n  |n Use the menu options to move the Tropical holiday layer one layer forward, so that it displays in front of the yacht layer.</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<style x="69" y="-184"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="5" component_id="audioi_01" characterSelected="false" file="t5_aud_0485.spx"/>
+<answer_item id="ansi" component_id="ansi_01" visible="false" actionGroups="group_01" linkwith="">
+<value>Select the  |b Tropical holiday  |p layer</value>
+<behavior id="showGraphic1" target="gi_01"/>
+<behavior id="showGraphic1" target="gi_02"/>
+<behavior id="showGraphic1" target="gi_03"/>
+</answer_item>
+<action_item id="action" component_id="action_01" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_19" actionGroupId="group_01"/>
+<action_item id="action" component_id="action_02" completeActionEvent="left-click" correctAction="false" linkwith="image_hs_18" actionGroupId="group_01"/>
+<answer_item id="ansi" component_id="ansi_02" visible="false" actionGroups="group_02,group_03,group_04" linkwith="">
+<value>Select  |b Layer - Arrange - Bring Forward |p </value>
+</answer_item>
+<action_item id="action" component_id="action_03" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_21" actionGroupId="group_02"/>
+<action_item id="action" component_id="action_04" completeActionEvent="left-click" correctAction="false" linkwith="image_hs_20" actionGroupId="group_02"/>
+<action_item id="action" component_id="action_05" completeActionEvent="rollover" correctAction="true" linkwith="image_hs_24" actionGroupId="group_03"/>
+<action_item id="action" component_id="action_07" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_26" actionGroupId="group_04"/>
+<action_item id="action" component_id="action_08" completeActionEvent="left-click" correctAction="false" linkwith="image_hs_25" actionGroupId="group_04"/>
+<text_item id="fic_skillcheck" component_id="fic_skillcheck_01" visible="false" associatedAttempt="1">
+<value>You have successfully moved the Tropical holiday layer one layer forward.</value>
+<style/>
+</text_item>
+<text_item id="fii_skillcheck" component_id="fii_skillcheck_01" visible="false" associatedAttempt="1">
+<value>The correct steps for moving the Tropical holiday layer one layer forward are listed in the Steps box.</value>
+<style/>
+</text_item>
+<graphic_item id="gi" component_id="gi_01" file="t5_010_sg.jpg" zorder="1" isAsset="false">
+<style x="-379" y="-106"/>
+<filter id="rotate" factor="0" x="277" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="t5_010_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="t5_010a_sg.png" zorder="2" isAsset="false">
+<style x="-357" y="2"/>
+<filter id="rotate" factor="0" x="186" y="23"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="t5_012_sg.jpg" zorder="4" isAsset="false">
+<style x="-173" y="-106"/>
+<filter id="rotate" factor="0" x="277" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_09" file="t5_012_sg.png" zorder="3" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_10" file="t5_012a_sg.png" zorder="5" isAsset="false">
+<style x="-150" y="2"/>
+<filter id="rotate" factor="0" x="186" y="23"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_11" file="t5_014_sg.png" zorder="6" isAsset="false">
+<style x="-270" y="-182"/>
+<filter id="rotate" factor="0" x="123" y="199"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_12" file="t5_014a_sg.png" zorder="7" isAsset="false">
+<style x="-270" y="-216"/>
+<filter id="rotate" factor="0" x="123" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="0">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_13" file="t5_016_sg.png" zorder="8" isAsset="false">
+<style x="-267" y="-25"/>
+<filter id="rotate" factor="0" x="213" y="50"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_15" file="t5_018_sg.png" zorder="9" isAsset="false">
+<style x="-398" y="-127"/>
+<filter id="rotate" factor="0" x="398" y="151"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<hotspot_item width="183" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C3-I1" isAutoCreated="true" component_id="image_hs_25" altTextEnabled="true" altTextSelected="true" x="-27" y="16" locked="true" file="btn_sendbackward_sg.png" hidden="false">
+<style x="-27" y="16" height="19" width="183"/>
+<alttextValue>Send Backward</alttextValue>
+</hotspot_item>
+<hotspot_item width="183" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C3" isAutoCreated="true" component_id="image_hs_26" altTextEnabled="true" altTextSelected="true" x="-27" y="-3" locked="true" file="btn_bringforward_sg.png" hidden="false">
+<behavior id="clickOnShowGraphic1" target="gi_01" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_02" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_03" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_15" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_08" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_09" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_10" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_11" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_12" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_13" subtype="left-click"/>
+<style x="-27" y="-3" height="19" width="183"/>
+<alttextValue>Bring Forward</alttextValue>
+</hotspot_item>
+<hotspot_item width="237" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C2" isAutoCreated="true" component_id="image_hs_24" altTextEnabled="true" altTextSelected="true" x="-267" y="-22" locked="true" file="btn_arrange_sg.png" hidden="false">
+<behavior id="onFocusShowGraphic1" target="gi_13" subtype="rollover"/>
+<style x="-267" y="-22" height="19" width="237"/>
+<alttextValue>Arrange</alttextValue>
+</hotspot_item>
+<hotspot_item width="47" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C1-I1" isAutoCreated="true" component_id="image_hs_20" altTextEnabled="true" altTextSelected="true" x="-225" y="-182" locked="true" file="btn_select_sg.png" hidden="false">
+<style x="-225" y="-182" height="19" width="47"/>
+<alttextValue>Select</alttextValue>
+</hotspot_item>
+<hotspot_item width="43" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S2-C1" isAutoCreated="true" component_id="image_hs_21" altTextEnabled="true" altTextSelected="true" x="-270" y="-182" locked="true" file="btn_layer_sg.png" hidden="false">
+<behavior id="clickOnShowGraphic1" target="gi_11" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_12" subtype="left-click"/>
+<style x="-270" y="-182" height="19" width="43"/>
+<alttextValue>Layer</alttextValue>
+</hotspot_item>
+<hotspot_item width="182" height="30" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C1-I1" isAutoCreated="true" component_id="image_hs_18" altTextEnabled="true" altTextSelected="true" x="216" y="-1" locked="true" file="btn_yacht_sg.png" hidden="false">
+<style x="216" y="-1" height="30" width="182"/>
+<alttextValue>yacht</alttextValue>
+</hotspot_item>
+<hotspot_item width="182" height="30" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C1" isAutoCreated="true" component_id="image_hs_19" altTextEnabled="true" altTextSelected="true" x="216" y="57" locked="true" file="btn_tropicalholiday02_sg.png" hidden="false">
+<behavior id="hideGraphic1" target="gi_01" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_02" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_03" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_08" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_09" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_10" subtype="left-click"/>
+<style x="216" y="57" height="30" width="182"/>
+<alttextValue>Tropical holiday</alttextValue>
+</hotspot_item>
+</Page>

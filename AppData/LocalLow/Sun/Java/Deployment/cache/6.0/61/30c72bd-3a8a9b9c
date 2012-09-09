@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P152" version="1" templateFileName="expos_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Implementing security can be more manageable if it's done as a fully integrated part of the development process. This process has to be regularly re-evaluated and any new potential threats have to be accounted for.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<style x="98" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t38_aud_0006.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>Security concerns should be analyzed at all levels and all components, processes, and policies should be evaluated. This includes processes on a human level – employees should be aware of their responsibilities at all times.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="hideGraphic" target="gi_01"/>
+<behavior id="showGraphic" target="gi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t38_aud_0007.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="p152_01.jpg" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="213" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="0">
+<Effect mode="fade" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_02" file="p152_02.png" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="206" y="200"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+<ShowEffectItem duration="6" delay="0">
+<Effect mode="wipe" direction="n" type="in"/>
+</ShowEffectItem>
+</graphic_item>
+</Page>

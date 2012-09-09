@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P79" version="1" templateFileName="tryit.xml">
+<container id="cont_tryit" component_id="cont_tryit_1">
+<style x="63" y="-206"/>
+</container>
+<container id="cont_steps" component_id="cont_steps_1">
+<style x="63" y="-53"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>First you enable the Quick Selection Tool.</value>
+<behavior id="showTryit" target="tryi_01"/>
+<behavior id="playAudio1" target="audioi_01"/>
+<style x="63" y="-206"/>
+</text_item>
+<text_item id="fic" component_id="fic_1" visible="false">
+<value>The tool is enabled and its icon displays in the Tools panel.</value>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="5" component_id="audioi_01" characterSelected="false" file="t3_aud_0051.spx"/>
+<answer_item id="ansi" component_id="ansi_01" visible="false" actionGroups="group_01,group_02" linkwith="">
+<value>Click the |b  Magic Wand Tool |p  icon |b   |p and select  |b Quick Selection Tool |p </value>
+<behavior id="showGraphic1" target="gi_06"/>
+<behavior id="showGraphic1" target="gi_07"/>
+<behavior id="showGraphic1" target="gi_08"/>
+</answer_item>
+<action_item id="action" component_id="action_01" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_06" actionGroupId="group_01"/>
+<action_item id="action" component_id="action_02" completeActionEvent="left-click" correctAction="true" linkwith="image_hs_10" actionGroupId="group_02"/>
+<hotspot_item width="26" height="23" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C1" isAutoCreated="true" component_id="image_hs_06" altTextEnabled="true" altTextSelected="true" x="-364" y="-78" locked="false" hidden="false" file="btn_wand_toll_sg.png">
+<behavior id="showPointer1" target="dp_03" subtype="left-click"/>
+<behavior id="clickOnShowGraphic1" target="gi_09" subtype="left-click"/>
+<style x="-364" y="-78" height="23" width="26"/>
+<alttextValue>Magic Wand Tool</alttextValue>
+</hotspot_item>
+<hotspot_item width="158" height="19" hotspot_type="4" id="image_hs" highlighter="false" category="action_hotspot" text="S1-C2" isAutoCreated="true" component_id="image_hs_10" altTextEnabled="true" altTextSelected="true" x="-335" y="-75" locked="false" file="btn_quick_selection_sg.png" hidden="false">
+<behavior id="clickOnShowGraphic1" target="gi_10" subtype="left-click"/>
+<behavior id="hideGraphic1" target="gi_09" subtype="left-click"/>
+<style x="-335" y="-75" height="19" width="158"/>
+<alttextValue>Quick Selection Tool</alttextValue>
+</hotspot_item>
+<graphic_item id="dp" component_id="dp_03" file="dynamic_pointer_left_508.gif" zorder="5" isAsset="true" highlighter="true" autostart="true" anim_gif="dynamic_pointer_left.gif" category="animation">
+<style x="-330" y="-79"/>
+<filter id="rotate" factor="0" x="18" y="14"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_06" file="p79_a1_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_07" file="p79_a2_sg.png" zorder="1" isAsset="false">
+<style x="-393" y="-211"/>
+<filter id="rotate" factor="0" x="315" y="48"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="p79_a3_sg.jpg" zorder="2" isAsset="false">
+<style x="-334" y="-106"/>
+<filter id="rotate" factor="0" x="358" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_09" file="p79_a4_sg.png" zorder="3" isAsset="false">
+<style x="-364" y="-78"/>
+<filter id="rotate" factor="0" x="95" y="23"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_10" file="p79_a5_sg.png" zorder="4" isAsset="false">
+<style x="-379" y="-160"/>
+<filter id="rotate" factor="0" x="292" y="52"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

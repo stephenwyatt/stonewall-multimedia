@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P287" version="1" templateFileName="multiple_choice_wide.xml">
+<style category="widePageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Which are general techniques for editing and proofreading a document?</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="false" file="t3_aud_0074.spx"/>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_01" min="2" isCorrect="true">
+<value>Ask someone else to read your document</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_02" min="2" isCorrect="true">
+<value>Edit or proofread in stages</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_03" min="2" isCorrect="true">
+<value>Read out loud</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_04" min="2" isCorrect="true">
+<value>Have good resources at hand</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_05" min="2" isCorrect="true">
+<value>Don't put too much trust in your computer</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_06" min="2" isCorrect="true">
+<value>Concentrate</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_07" min="2">
+<value>Begin as soon as you finish writing</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_08" min="2">
+<value>Edit and proofread only on a computer screen</value>
+</answer_item>
+</Page>

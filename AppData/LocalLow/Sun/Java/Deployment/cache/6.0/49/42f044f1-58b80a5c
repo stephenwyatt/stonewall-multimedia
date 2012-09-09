@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Topic glossary="glossary.html" objectives="course_obj.html" references="references.html" skillbriefs="skillbriefs.html" transcripts="transcript.html" jobaids="jobaids.html" learningaids="learningaids.html" resources="resources_home.html" acknowledgements="acknowledgements.html" aboutThisCourse="about_course.html" copyright="copyrights.html" license="licensing.html" foas="followons.html" id="t22" name="T22 - Correcting Imperfections in Photoshop CS5" topicApproxDuration="18" sourceMaterial="Adobe Photoshop CS4 Classroom in a Book, pp64-70 |n Adobe Photoshop CS4 One-on-One, p208 (top for general info and this page onwards to see the tools in action)" generalRemarks="Topic should cover: |n Clone stamp |n patch tool |n healing brush/spot healing brush |n  |n These tools (collectively referred to as the healing tools) are often used to get rid of clutter in a photo (for example, remove unnecessary people), adjust imperfections such as blemishes or litter, or hide any unwanted background distractions (wiring in a nature scene, for example) |n  |n Red eye is covered in a topic in course 1 - no need to cover here." estimatedDuration="15" maxMediaID="126" fadeGraphicVerified="true" tabOrderSet="true" charDialogUpgraded="true" softwareSimVerified="true">
+<topicType>Instruction</topicType>
+<topicTitle>Correcting Imperfections in Photoshop CS5</topicTitle>
+<LearningPoint type="Instruction" id="lp55" name="LP 1: Using the Clone Stamp Tool">
+<title>Using the Clone Stamp Tool</title>
+<PageStub id="p59" file="p59.xml"/>
+<PageStub id="p66" file="p66.xml"/>
+<PageStub id="p67" file="p67.xml"/>
+<PageStub id="p147" file="p147.xml"/>
+<PageStub id="p148" file="p148.xml"/>
+<PageStub id="p68" file="p68.xml"/>
+<PageStub id="p69" file="p69.xml"/>
+<PageStub id="p142" file="p142.xml"/>
+<PageStub id="p143" file="p143.xml"/>
+<PageStub id="p71" file="p71.xml"/>
+<PageStub id="p70" file="p70.xml"/>
+<PageStub id="p72" file="p72.xml"/>
+<PageStub id="p73" file="p73.xml"/>
+<PageStub id="p74" file="p74.xml"/>
+<PageStub id="p77" file="p77.xml"/>
+<PageStub id="p78" file="p78.xml"/>
+<LinkToObjective id="lto56" objId="O23"/>
+</LearningPoint>
+<LearningPoint type="Instruction" id="lp54" name="LP 2: Healing Brush tools">
+<title>Healing Brush tools</title>
+<PageStub id="p283" file="p283.xml"/>
+<PageStub id="p316" file="p316.xml"/>
+<PageStub id="p145" file="p145.xml"/>
+<PageStub id="p146" file="p146.xml"/>
+<PageStub id="p82" file="p82.xml"/>
+<PageStub id="p84" file="p84.xml"/>
+<PageStub id="p85" file="p85.xml"/>
+<PageStub id="p86" file="p86.xml"/>
+<PageStub id="p209" file="p209.xml"/>
+<PageStub id="p87" file="p87.xml"/>
+<PageStub id="p286" file="p286.xml"/>
+<PageStub id="p284" file="p284.xml"/>
+<PageStub id="p285" file="p285.xml"/>
+<PageStub id="p89" file="p89.xml"/>
+<PageStub id="p288" file="p288.xml"/>
+<PageStub id="p289" file="p289.xml"/>
+<PageStub id="p290" file="p290.xml"/>
+<PageStub id="p291" file="p291.xml"/>
+<PageStub id="p292" file="p292.xml"/>
+<PageStub id="p293" file="p293.xml"/>
+<LinkToObjective id="lto57" objId="O50"/>
+</LearningPoint>
+<LearningPoint type="Summary" id="lp150" name="Summary">
+<title>Summary</title>
+<PageStub id="p151" file="p151.xml"/>
+</LearningPoint>
+<Objective objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="comprehension" contentType="procedures" id="o23" name="TObj1">
+<sourceMaterial/>
+<text>recognize how to use the Clone Stamp Tool</text>
+<instructionalPlan>CS4 plan: |n - Introduce the topic by explaining that you sometimes may find yourself working with a damaged image and want to repair it, or that you may wish to cover other types of "blemishes in a picture", and that Photoshop comes with a set of tools for this: Clone stamp, Spot healing brush, Healing brush, and Patch tool |n The explain and demo how to use the clone stamp tool |n  |n PRACTICE: Scenario based multiple choice on using the clone stamp tool</instructionalPlan>
+<strategy>1&amp;2) variation of practice |n </strategy>
+<PageStub id="p60" file="p60.xml"/>
+<PageStub id="p61" file="p61.xml"/>
+</Objective>
+<Objective objectiveType="terminal" tested="true" learningDomain="cognitive" learningLevel="comprehension" contentType="procedures" id="o50" name="TObj2">
+<sourceMaterial/>
+<text>recognize how to improve an image using the Healing Brush and the Spot Healing Brush</text>
+<instructionalPlan>CS5 plan: |n -add an overview of the new Content Aware fill feature to the Spot Healing brush instruction. This does not effect the practice or test questions which can stay exactly as they are. |n  |n  |n CS4 plan: |n - Explain the difference between the clone stamp and the healing brushes generally |n - Then explain the difference between Spot healing brush, and healing brush - showing examples of how they are used |n  |n PRACTICE: Scenario based matching or multiple choice question on using the spot healing brush and the healing brush</instructionalPlan>
+<strategy>1&amp;2) variation of practice</strategy>
+<PageStub id="p62" file="p62.xml"/>
+<PageStub id="p102" file="p102.xml"/>
+</Objective>
+</Topic>

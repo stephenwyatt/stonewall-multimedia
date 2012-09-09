@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P218" version="1" templateFileName="explore_graphic_draggable.xml" hasVideo="false">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>It's important for developers of web services to consider various security components.</value>
+<behavior id="showPrompt" target="pi_01"/>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<behavior id="showHotspot" target="hs_01"/>
+<behavior id="showHotspot" target="hs_02"/>
+<behavior id="showHotspot" target="hs_03"/>
+<behavior id="showHotspot" target="hs_04"/>
+<behavior id="showHotspot" target="hs_05"/>
+<style x="-388" y="-206"/>
+</text_item>
+<text_item visible="false" id="pi" tagName="text_item" category="prompt_std" contCategory="feedback_container,text_item_container" contID="cont_fb,cont_ti" allowMultiple="false" allowMultiplesLimit="9" component_id="pi_01">
+<value>Click each aspect of security for more information about it.</value>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_01" characterSelected="false" file="t38_aud_0087.spx"/>
+<hotspot_item width="187" height="48" hotspot_type="0" id="hs" highlighter="false" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hs_01" isAutoCreated="true" min="2" x="86" y="-138" locked="false" altTextEnabled="true" altTextSelected="true">
+<behavior id="clickOnShowPopup" target="pb_01"/>
+<behavior id="clickOnShowGraphic" target="gi_02"/>
+<style x="86" y="-138" height="48" width="187"/>
+<alttextValue>Authentication</alttextValue>
+</hotspot_item>
+<hotspot_item width="187" height="48" hotspot_type="0" id="hs" highlighter="false" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hs_02" isAutoCreated="true" min="2" x="86" y="-88" locked="false" altTextEnabled="true" altTextSelected="true">
+<behavior id="clickOnShowPopup" target="pb_02"/>
+<behavior id="clickOnShowGraphic" target="gi_03"/>
+<style x="86" y="-88" height="48" width="187"/>
+<alttextValue>Authorization</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_01" visible="false">
+<value>Authentication</value>
+<behavior id="clickOnShowPopup1" target="pb_01"/>
+<behavior id="clickOnShowGraphic1" target="gi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_02" characterSelected="false" file="t38_aud_0088.spx"/>
+<text_item id="pb" component_id="pb_01" visible="false">
+<value>Authentication is the process of one user, application, or computer verifying its identity to another. This is usually done with a username and password combination, a smart card, or a PIN. In the case of web services, authentication usually occurs between applications using certificates or passwords.</value>
+<behavior id="playAudio2" target="audioi_02"/>
+<style x="-388" y="-107"/>
+</text_item>
+<text_item id="lb" component_id="lb_02" visible="false">
+<value>Authorization</value>
+<behavior id="clickOnShowPopup1" target="pb_02"/>
+<behavior id="clickOnShowGraphic1" target="gi_03"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_03" characterSelected="false" file="t38_aud_0089.spx"/>
+<text_item id="pb" component_id="pb_02" visible="false">
+<value>Authorization involves checking whether an authenticated user, application, or computer has permissions to access a requested resource. |n  |n Resources can include XML web services, files, or databases. They're typically categorized by role or type and have specific access levels assigned to them. During authorization, the requesting entity's permissions are measured against the resource's access level. If the entity has adequate permissions, access is granted – and if not, access is denied.</value>
+<behavior id="playAudio2" target="audioi_03"/>
+<style x="-388" y="-107"/>
+</text_item>
+<text_item id="lb" component_id="lb_03" visible="false">
+<value>Auditing and logging</value>
+<behavior id="clickOnShowPopup1" target="pb_03"/>
+<behavior id="clickOnShowGraphic1" target="gi_04"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_03" visible="false">
+<value>Computer systems can perform auditing and logging operations to record information about attempts to access resources. You can use this information to troubleshoot system issues. |n  |n You can perform auditing and logging on different system components, such as web servers, database servers, and operating systems. When you're working on web service security, the transport layer accessing a service is a prime candidate for logging operations.</value>
+<behavior id="playAudio2" target="audioi_04"/>
+<style x="-388" y="-107"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_04" characterSelected="false" file="t38_aud_0090.spx"/>
+<hotspot_item width="187" height="48" hotspot_type="0" id="hs" highlighter="false" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hs_03" isAutoCreated="true" min="2" x="86" y="-39" locked="false" altTextEnabled="true" altTextSelected="true">
+<behavior id="clickOnShowPopup" target="pb_03"/>
+<behavior id="clickOnShowGraphic" target="gi_04"/>
+<style x="86" y="-39" height="48" width="187"/>
+<alttextValue>Auditing and logging</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_04" visible="false">
+<value>Integrity</value>
+<behavior id="clickOnShowPopup1" target="pb_04"/>
+<behavior id="clickOnShowGraphic1" target="gi_05"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_04" visible="false">
+<value>Data integrity is an important consideration when you're securing a web service. You need to ensure and verify that data isn't compromised in transit.</value>
+<behavior id="playAudio2" target="audioi_05"/>
+<style x="-388" y="-107"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_05" characterSelected="false" file="t38_aud_0091.spx"/>
+<hotspot_item width="187" height="50" hotspot_type="0" id="hs" highlighter="false" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hs_04" isAutoCreated="true" min="2" x="86" y="9" locked="false" altTextEnabled="true" altTextSelected="true">
+<behavior id="clickOnShowPopup" target="pb_04"/>
+<behavior id="clickOnShowGraphic" target="gi_05"/>
+<style x="86" y="9" height="50" width="187"/>
+<alttextValue>Integrity</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_05" visible="false">
+<value>Encryption</value>
+<behavior id="clickOnShowPopup1" target="pb_05"/>
+<behavior id="clickOnShowGraphic1" target="gi_06"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_05" visible="false">
+<value>Encryption plays an important role in guaranteeing data integrity. It involves using mathematical algorithms to break up data to make it unreadable to anyone who doesn't have the correct cryptographic key or password. The key or password is used to decrypt the data and return it to its original state.</value>
+<behavior id="playAudio2" target="audioi_06"/>
+<style x="-388" y="-107"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_06" characterSelected="false" file="t38_aud_0092.spx"/>
+<hotspot_item width="187" height="48" hotspot_type="0" id="hs" highlighter="false" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hs_05" isAutoCreated="true" min="2" x="86" y="61" locked="false" altTextEnabled="true" altTextSelected="true">
+<behavior id="clickOnShowPopup" target="pb_05"/>
+<behavior id="clickOnShowGraphic" target="gi_06"/>
+<style x="86" y="61" height="48" width="187"/>
+<alttextValue>Encryption</alttextValue>
+</hotspot_item>
+<graphic_item id="gi" component_id="gi_01" file="p154.png" zorder="0" isAsset="false">
+<style x="66" y="-157"/>
+<filter id="rotate" factor="0" x="112" y="144"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="xmle_bg_conceptual.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_02" file="p154_1.png" zorder="1" isAsset="false">
+<style x="85" y="-141"/>
+<filter id="rotate" factor="0" x="94" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_03" file="p154_2.png" zorder="2" isAsset="false">
+<style x="85" y="-91"/>
+<filter id="rotate" factor="0" x="94" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_04" file="p154_3.png" zorder="3" isAsset="false">
+<style x="85" y="-41"/>
+<filter id="rotate" factor="0" x="94" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="p154_4.png" zorder="4" isAsset="false">
+<style x="85" y="9"/>
+<filter id="rotate" factor="0" x="94" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="p154_5.png" zorder="5" isAsset="false">
+<style x="85" y="59"/>
+<filter id="rotate" factor="0" x="94" y="26"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

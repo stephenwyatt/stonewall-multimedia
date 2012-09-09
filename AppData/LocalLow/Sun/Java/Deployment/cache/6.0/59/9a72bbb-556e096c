@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P166" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-388" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>You now need to define the properties for the tag using the "CSS Rule definition for .style1 a" dialog box.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_04"/>
+<behavior id="showGraphic" target="gi_05"/>
+<style x="-388" y="-206"/>
+<alttextValue>By default, the dialog box opens with the Type category of options selected.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t17_aud_0128.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>You want to modify the font so you select  |b Georgia, Times New Roman, Times, serif |p  from the Font-family drop-down list.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_06"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t17_aud_0129.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>You then click  |b OK |p .</value>
+<behavior id="playAudio" target="audioi_03"/>
+<behavior id="showGraphic" target="gi_08"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t17_aud_0286.spx"/>
+<graphic_item id="gi" component_id="gi_04" file="p163_01a_269_sg.jpg" zorder="0" isAsset="false">
+<style x="107" y="25"/>
+<filter id="rotate" factor="0" x="121" y="95"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="p166_01_274_sg.png" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="p166_02_275_sg.png" zorder="2" isAsset="false">
+<style x="-379" y="-172"/>
+<filter id="rotate" factor="0" x="270" y="194"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="p166_03_276_sg.png" zorder="3" isAsset="false">
+<style x="-379" y="-172"/>
+<filter id="rotate" factor="0" x="270" y="194"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+</Page>

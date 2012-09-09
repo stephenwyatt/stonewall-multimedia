@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P231" version="1" templateFileName="multiple_choice_wide.xml">
+<style category="widePageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Identify the mechanical errors in the second paragraph.</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<style/>
+<alttextValue>The second paragraph is spelled as follows. W i t h o u t SPACE i n d u c e d SPACE s u b s i d i e s COMMA SPACE p e r h a p s SPACE f r o m SPACE I n t e r n e t SPACE a c c e s s SPACE f e e s COMMA SPACE t h e SPACE c o m p u t e r SPACE i n d u s t r y SPACE m a y SPACE n e v e r SPACE p r o d u c e SPACE t h e SPACE i n e x p e n s i v e SPACE t e c h n o l o g i e APOSTROPHE s SPACE t h a t SPACE w o u l d SPACE e n a b l e SPACE t e l e v i s i o n SPACE s e t s COMMA SPACE t e l e p h o n e s COMMA SPACE a n d SPACE c o m p u t e r SPACE g a m e s SPACE t o SPACE b r i n g SPACE e m a i l SPACE i n t o SPACE t h e SPACE h o m e PERIOD SPACE I n t e r i m SPACE s u b s i d i e s SPACE a n d |w SPACE t e c h n o l o g i e s SPACE w o u l d SPACE a l s o SPACE b e SPACE n e e d e d SPACE i f SPACE l e s s SPACE a f f l u e n t SPACE c i t i z e n s SPACE a r e SPACE t o SPACE g e t SPACE t h e i r SPACE e HYPHEN m a i l SPACE o u t s i d e SPACE t h e SPACE h o m e COMMA SPACE i n SPACE a p a r t m e n t SPACE l o b b i e s COMMA SPACE l i b r a r i e s COMMA SPACE a n d SPACE s c h o o l s PERIOD.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="false" file="t5_aud_0101.spx"/>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_01" min="2" isCorrect="true">
+<value>There is an incorrect apostrophe</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_02" min="2" isCorrect="true">
+<value>There is a hyphenation inconsistency</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_03" min="2">
+<value>The word  |i affluent |p  is used incorrectly</value>
+</answer_item>
+<answer_item visible="true" id="ansi" tagName="answer_item" category="standardText" contCategory="answer_container,right_container,multiple_choice_container" contID="cont_ans,cont_right,cont_mc" allowMultiple="true" allowMultiplesLimit="0" component_id="ansi_04" min="2">
+<value>There is a spelling error</value>
+</answer_item>
+</Page>

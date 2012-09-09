@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P268" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Clicking the button displays a dialog box that lists the style applied to the element and the name of the style sheet in which it's located.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_05"/>
+<behavior id="showGraphic" target="gi_06"/>
+<style x="98" y="-206"/>
+<alttextValue>The dialog box lists the style, .h2, and the style sheet in which it's located, styles2.css.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t19_aud_0102.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>If you hover the cursor over the name of a style rule, another box displays the properties of the rule.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<behavior id="showGraphic" target="gi_08"/>
+<style/>
+<alttextValue>The properties displayed are: color: #000066, font-weight: bold, font-size: 12px, font-family: Arial, Helvetica, sans-serif, and text-decoration: underline.</alttextValue>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t19_aud_0103.spx"/>
+<text_item id="ti" component_id="ti_03" visible="false">
+<value>When you click the name of a style rule, the style sheet it belongs to opens as a related file in the Split view. You can then edit the code to modify the style rules that the style sheet contains.</value>
+<behavior id="playAudio" target="audioi_03"/>
+<behavior id="showGraphic" target="gi_09"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_03" characterSelected="false" file="t19_aud_0104.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_05" file="t19_p268_194_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="t19_p268_194a_sg.jpg" zorder="1" isAsset="false">
+<style x="125" y="-216"/>
+<filter id="rotate" factor="0" x="123" y="133"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_08" file="t19_p268_195_sg.png" zorder="2" isAsset="false">
+<style x="-98" y="-202"/>
+<filter id="rotate" factor="0" x="132" y="56"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_09" file="t19_p268_196_sg.png" zorder="3" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

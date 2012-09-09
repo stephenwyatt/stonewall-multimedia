@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P39" version="1" templateFileName="html_caption.xml">
+<style category="standard"/>
+<html_page_item id="html" component_id="html_01" htmlFilename="/media/misc/p39.html"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Ideally, you should divide the process of creating a business document into three stages. First, you plan and create a draft of the document. Then you edit the document, and finally you proofread it.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t3_aud_0018.spx"/>
+</Page>

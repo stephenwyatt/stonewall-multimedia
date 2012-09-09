@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P303" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-206"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Photoshop CS5 includes the Puppet Warp feature that enables you to warp a particular portion of an image. With Puppet Warp, you can achieve subtle reshaping or extreme distortion of objects, commonly referred to as puppets. Puppet Warp can be applied to regular image layers, text layers, Photoshop shapes, Smart Objects, and vector masks.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_01"/>
+<behavior id="showGraphic" target="gi_06"/>
+<style x="98" y="-206"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t18_aud_0075.spx"/>
+<text_item id="ti" component_id="ti_02" visible="false">
+<value>Puppet Warp works by placing a wire grid or mesh over an image. You then add pins to the mesh where you want to control or prevent the object's movement. For example, you can easily warp an image of a flower to rearrange the petals to appear in a more dramatic style. Or you can move a standalone person to change arm and leg placement.</value>
+<behavior id="playAudio" target="audioi_02"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_02" characterSelected="false" file="t18_aud_0076.spx"/>
+<graphic_item id="gi" component_id="gi_01" file="p303_01_134_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="p304_image2_sg.jpg" zorder="1" isAsset="false">
+<style x="-334" y="-106"/>
+<filter id="rotate" factor="0" x="356" y="161"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs5_bg_grabs.png" visible="true"/>
+</Page>

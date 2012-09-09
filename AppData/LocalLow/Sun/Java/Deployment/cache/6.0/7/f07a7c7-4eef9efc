@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P190" version="1" templateFileName="explore_graphic_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="98" y="-33"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>There are five anti-aliasing options you can choose from.</value>
+<behavior id="showPrompt" target="pi_01"/>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showHighlighter" target="hl_06"/>
+<behavior id="showHighlighter" target="hl_13"/>
+<behavior id="showHighlighter" target="hl_08"/>
+<behavior id="showHighlighter" target="hl_11"/>
+<behavior id="showHighlighter" target="hl_14"/>
+<behavior id="showGraphic" target="gi_11"/>
+<behavior id="showGraphic" target="gi_12"/>
+<style x="98" y="-33"/>
+</text_item>
+<text_item visible="false" id="pi" tagName="text_item" category="prompt_std" contCategory="feedback_container,text_item_container" contID="cont_fb,cont_ti" allowMultiple="false" allowMultiplesLimit="9" component_id="pi_01">
+<value>Select each option for more information.</value>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_01" characterSelected="false" file="t7_aud_0197.spx"/>
+<hotspot_item width="60" height="16" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_06" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="77" y="-133" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_01"/>
+<behavior id="clickOnShowGraphic2" target="gi_13"/>
+<style x="77" y="-133" height="16" width="60"/>
+<alttextValue>None</alttextValue>
+</hotspot_item>
+<hotspot_item width="60" height="16" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_13" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="77" y="-117" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_02"/>
+<behavior id="clickOnShowGraphic2" target="gi_14"/>
+<style x="77" y="-117" height="16" width="60"/>
+<alttextValue>Sharp</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_01" visible="false">
+<value>None</value>
+<behavior id="clickOnShowPopup1" target="pb_01"/>
+<behavior id="clickOnShowGraphic1" target="gi_13"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_02" characterSelected="false" file="t7_aud_0198.spx"/>
+<text_item id="pb" component_id="pb_01" visible="false">
+<value>The  |b None |p  option enables you to remove all anti-aliasing effects and maintains the font's default appearance.</value>
+<behavior id="playAudio2" target="audioi_02"/>
+<style x="98" y="50"/>
+</text_item>
+<text_item id="lb" component_id="lb_02" visible="false">
+<value>Sharp</value>
+<behavior id="clickOnShowPopup1" target="pb_02"/>
+<behavior id="clickOnShowGraphic1" target="gi_14"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_03" characterSelected="false" file="t7_aud_0199.spx"/>
+<text_item id="pb" component_id="pb_02" visible="false">
+<value>The  |b Sharp |p  option increases character definition in text, especially if the text is small, by creating sharp corners around the characters.</value>
+<behavior id="playAudio2" target="audioi_03"/>
+<style x="98" y="50"/>
+</text_item>
+<text_item id="lb" component_id="lb_03" visible="false">
+<value>Crisp</value>
+<behavior id="clickOnShowPopup1" target="pb_03"/>
+<behavior id="clickOnShowGraphic1" target="gi_15"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_03" visible="false">
+<value>The  |b Crisp |p  option enables you to create letters that have slightly rounded corners.</value>
+<behavior id="playAudio2" target="audioi_04"/>
+<style x="98" y="50"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_04" characterSelected="false" file="t7_aud_0200.spx"/>
+<hotspot_item width="60" height="16" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_14" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="77" y="-101" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_03"/>
+<behavior id="clickOnShowGraphic2" target="gi_15"/>
+<style x="77" y="-101" height="16" width="60"/>
+<alttextValue>Crisp</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_04" visible="false">
+<value>Strong</value>
+<behavior id="clickOnShowPopup1" target="pb_04"/>
+<behavior id="clickOnShowGraphic1" target="gi_16"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_04" visible="false">
+<value>The  |b Strong |p  option enables you to create bolder characters by expanding the edges of the letters slightly outwards.</value>
+<behavior id="playAudio2" target="audioi_05"/>
+<style x="98" y="50"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_05" characterSelected="false" file="t7_aud_0201.spx"/>
+<hotspot_item width="60" height="16" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_08" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="77" y="-85" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_04"/>
+<behavior id="clickOnShowGraphic2" target="gi_16"/>
+<style x="77" y="-85" height="16" width="60"/>
+<alttextValue>Strong</alttextValue>
+</hotspot_item>
+<text_item id="lb" component_id="lb_05" visible="false">
+<value>Smooth</value>
+<behavior id="clickOnShowPopup1" target="pb_05"/>
+<behavior id="clickOnShowGraphic1" target="gi_17"/>
+<style/>
+</text_item>
+<text_item id="pb" component_id="pb_05" visible="false">
+<value>The  |b Smooth |p  option enables you to create letters with more roundness. This option is similar to the  |b Crisp |p  option.</value>
+<behavior id="playAudio2" target="audioi_06"/>
+<style x="98" y="50"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="audioi_06" characterSelected="false" file="t7_aud_0202.spx"/>
+<hotspot_item width="60" height="16" hotspot_type="1" id="hl" highlighter="true" tagName="hotspot_item" category="hotspot_default" visible="false" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="9" component_id="hl_11" isAutoCreated="true" min="2" altTextEnabled="true" altTextSelected="true" x="77" y="-69" locked="false" hidden="false">
+<behavior id="clickOnShowPopup2" target="pb_05"/>
+<behavior id="clickOnShowGraphic2" target="gi_17"/>
+<style x="77" y="-69" height="16" width="60"/>
+<alttextValue>Smooth</alttextValue>
+</hotspot_item>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_11" file="t7_130_sg.jpg" zorder="0" isAsset="false">
+<style x="-319" y="-91"/>
+<filter id="rotate" factor="0" x="350" y="153"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_12" file="t7_130_sg.png" zorder="1" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_13" file="t7_131_sg.png" zorder="2" isAsset="false">
+<style x="78" y="-133"/>
+<filter id="rotate" factor="0" x="28" y="16"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_14" file="t7_132_sg.png" zorder="3" isAsset="false">
+<style x="78" y="-133"/>
+<filter id="rotate" factor="0" x="28" y="16"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_15" file="t7_133_sg.png" zorder="4" isAsset="false">
+<style x="77" y="-117"/>
+<filter id="rotate" factor="0" x="29" y="16"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_16" file="t7_134_sg.png" zorder="5" isAsset="false">
+<style x="78" y="-117"/>
+<filter id="rotate" factor="0" x="28" y="24"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_17" file="t7_135_sg.png" zorder="6" isAsset="false">
+<style x="78" y="-117"/>
+<filter id="rotate" factor="0" x="28" y="32"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

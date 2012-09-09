@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P34" version="1" templateFileName="matching_reusable_target.xml">
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Match each activity to the stage in which it occurs as you review a business document. More than one activity may match to each stage.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="6" component_id="audioi_01" characterSelected="false" file="t3_aud_0007.spx"/>
+<text_item id="moi" component_id="moi_01" visible="true">
+<value>Reorganize and rewrite content</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_02" visible="true">
+<value>Focus on appropriate use of terminology</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_03" visible="true">
+<value>Focus on grammar, spelling, and punctuation</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_04" visible="true">
+<value>Check for inconsistencies in fonts and spacing</value>
+<style/>
+</text_item>
+<answer_item id="ansi" component_id="ansi_01" visible="true" isCorrect="moi_01,moi_02,moi_05">
+<value>Editing</value>
+</answer_item>
+<answer_item id="ansi" component_id="ansi_02" visible="true" isCorrect="moi_03,moi_04,moi_06">
+<value>Proofreading</value>
+</answer_item>
+<text_item id="moi" component_id="moi_05" visible="true">
+<value>Read the document carefully for the first time</value>
+<style/>
+</text_item>
+<text_item id="moi" component_id="moi_06" visible="true">
+<value>Read the document a final time</value>
+<style/>
+</text_item>
+</Page>

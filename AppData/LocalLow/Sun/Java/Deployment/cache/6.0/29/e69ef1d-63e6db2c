@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P92" version="1" templateFileName="expos_draggable.xml">
+<container id="cont_ti" component_id="cont_ti_1">
+<style x="-390" y="-208"/>
+</container>
+<style category="standard"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>To modify a background layer, you first need to convert it to an ordinary layer.</value>
+<behavior id="playAudio" target="audioi_01"/>
+<behavior id="showGraphic" target="gi_03"/>
+<behavior id="showGraphic" target="gi_04"/>
+<behavior id="showGraphic" target="gi_05"/>
+<behavior id="showGraphic" target="gi_06"/>
+<behavior id="showGraphic" target="gi_07"/>
+<style x="-390" y="-208"/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="3" component_id="audioi_01" characterSelected="false" file="t5_aud_0208.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_bg_grabs.png" visible="true"/>
+<graphic_item id="gi" component_id="gi_03" file="t5_053_sg.png" zorder="0" isAsset="false">
+<style x="-398" y="-216"/>
+<filter id="rotate" factor="0" x="398" y="216"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_04" file="t5_053_sg.jpg" zorder="1" isAsset="false">
+<style x="-398" y="-92"/>
+<filter id="rotate" factor="0" x="271" y="154"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_05" file="t5_053a_sg.png" zorder="2" isAsset="false">
+<style x="-357" y="-26"/>
+<filter id="rotate" factor="0" x="236" y="32"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_06" file="t5_054_sg.png" zorder="3" isAsset="false">
+<style x="-398" y="-129"/>
+<filter id="rotate" factor="0" x="388" y="145"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+<graphic_item id="gi" component_id="gi_07" file="t5_055_sg.png" zorder="4" isAsset="false">
+<style x="169" y="-52"/>
+<filter id="rotate" factor="0" x="114" y="99"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page id="P87" version="1" templateFileName="summary.xml">
+<style category="widePageStyle"/>
+<text_item id="ti" component_id="ti_01" visible="true">
+<value>Vectors are images created using paths. They contain crisp edges and clean lines, and can be scaled and modified without any loss of quality. Photoshop CS5 provides a variety of shape and drawing tools you can use to define paths. The shape tools enable you to create predefined vector shapes. |n  |n You can use the Pen Tool to create custom shapes and more complex paths in Photoshop. You define the shapes of paths using anchor points, direction lines, control points, and corner anchor points. When using the Pen Tool, you can choose to display a grid on the artboard to increase precision.</value>
+<behavior id="playAudio1" target="audioi_01"/>
+<behavior id="showGraphic1" target="gi_01"/>
+<style/>
+</text_item>
+<audio_item visible="true" id="audioi" category="" contCategory="" contID="" allowMultiple="true" allowMultiplesLimit="0" component_id="audioi_01" characterSelected="false" file="t11_aud_0066.spx"/>
+<graphic_item id="bgr_graphic" component_id="bgr_graphic_1" file="cs4_ps_summary.jpg" visible="true"/>
+<graphic_item id="gi" component_id="gi_01" file="cs4_blank.png" zorder="0" isAsset="false">
+<style x="-203" y="-216"/>
+<filter id="rotate" factor="0" x="0" y="0"/>
+<filter id="alpha" factor="100"/>
+<filter id="scale" factor="1.0"/>
+</graphic_item>
+</Page>
